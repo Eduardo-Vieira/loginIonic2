@@ -1,0 +1,20 @@
+page-login {
+    $color-font: #fff;
+    h1,
+    h2,
+    h3 {
+        color: $color-font;
+    }
+    .content {
+        background-color: #488aff;
+    }
+    .input-login {
+        border-bottom: 1px solid $color-font;
+        color: $color-font;
+    }
+    .icon-login {
+        padding: 6%;
+        font-size: 2rem;
+        color: $color-font;
+    }
+}

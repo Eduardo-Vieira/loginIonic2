@@ -1,0 +1,29 @@
+<ion-content padding>
+    <ion-grid>
+        <ion-row>
+            <ion-col col-12 text-center>
+                <h1>Login</h1>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col class="icon-login" col-2>
+                <ion-icon name="person"></ion-icon>
+            </ion-col>
+            <ion-col>
+                <ion-input class="input-login" type="tel" [(ngModel)]="username" name="username" placeholder="Usuário"></ion-input>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col class="icon-login" col-2>
+                <ion-icon name="key"></ion-icon>
+            </ion-col>
+            <ion-col>
+                <ion-input class="input-login" type="password" [(ngModel)]="password" name="password" placeholder="Senha"></ion-input>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-12><button color="secondary" ion-button block (click)="doAccess()">Entrar</button></ion-col>
+        </ion-row>
+    </ion-grid>
+
+</ion-content>
